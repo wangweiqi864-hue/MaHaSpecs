@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage              = 'https://github.com/wangweiqi864-hue/MahaPagingCore'
   s.license               = { :type => 'MIT' }
   s.author                = { 'wangweiqi864-hue' => 'wangweiqi864-hue@users.noreply.github.com' }
-  s.source                = { :git => 'https://github.com/wangweiqi864-hue/MahaPagingCore.git', :tag => s.version.to_s }
+  s.source                = { :git => 'ssh://git.com/wangweiqi864-hue/MahaPagingCore.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
 
