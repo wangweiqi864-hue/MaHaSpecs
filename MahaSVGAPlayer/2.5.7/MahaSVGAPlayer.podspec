@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name         = 'SVGAPlayer'
+  s.name         = 'MahaSVGAPlayer'
   s.version      = '2.5.7'
-  s.summary      = 'SVGAPlayer is a high-performance animation player for iOS.'
+  s.summary      = 'MahaSVGAPlayer is a high-performance animation player for iOS.'
 
   s.description  = <<-DESC
                    SVGA is an animation format designed for high-performance playback.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    by the app so it can be consumed from the internal CocoaPods specs repo.
                    DESC
 
-  s.homepage     = 'https://github.com/wangweiqi864-hue/SVGAPlayer'
+  s.homepage     = 'https://github.com/wangweiqi864-hue/MahaSVGAPlayer'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author       = {
     'PonyCui' => 'cuiminghui1@yy.com',
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   }
   s.platform     = :ios, '13.0'
   s.ios.deployment_target = '13.0'
-  s.source       = { :git => 'https://github.com/wangweiqi864-hue/SVGAPlayer.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/wangweiqi864-hue/MahaSVGAPlayer.git', :tag => s.version.to_s }
 
   s.subspec 'Core' do |ss|
     ss.source_files  = 'Source/*.{h,m,mm}'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     ss.dependency 'SSZipArchive', '>= 1.8.1'
     ss.library = 'z'
     ss.framework = 'AVFoundation'
-    ss.dependency 'SVGAPlayer/ProtoFiles'
+    ss.dependency 'MahaSVGAPlayer/ProtoFiles'
   end
 
   s.subspec 'ProtoFiles' do |ss|
