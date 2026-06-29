@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'MahaSVGAPlayer'
-  s.version      = '2.5.7'
+  s.version      = '2.5.8'
   s.summary      = 'MahaSVGAPlayer is a high-performance animation player for iOS.'
 
   s.description  = <<-DESC

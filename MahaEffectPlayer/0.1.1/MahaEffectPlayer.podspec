@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MahaEffectPlayer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A private animation effect player that wraps EVA, SVGA, VAP, and MP4 playback flows.'
 
   s.description      = <<-DESC
